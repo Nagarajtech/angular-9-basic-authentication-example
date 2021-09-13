@@ -10,6 +10,11 @@ export class AboutComponent {
   }
 
   onSubmit(form: NgForm) {
-    console.log('Your form data : ', form.value);
+    alert(
+      'FirstName : ' +
+        form.value.firstName +
+        ' LastName : ' +
+        form.value.lastName
+    );
   }
 }
