@@ -5,9 +5,6 @@ import { NgForm } from '@angular/forms';
 export class AboutComponent {
   firstName: string = '';
   lastName: string = '';
-  myFunction(): void {
-    alert(this.firstName);
-  }
 
   onSubmit(form: NgForm) {
     alert(
